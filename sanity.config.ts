@@ -9,11 +9,11 @@ import {colorInput} from '@sanity/color-input'
 import {imageHotspotArrayPlugin} from 'sanity-plugin-hotspot-array'
 import {media, mediaAssetSource} from 'sanity-plugin-media'
 
-const devOnlyPlugins = [visionTool()]
+// const devOnlyPlugins = [visionTool()]
 
 export default defineConfig({
-  name: 'default',
-  title: '',
+  name: 'honra',
+  title: 'Honra',
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
   basePath: "/admin",
@@ -22,13 +22,11 @@ export default defineConfig({
     colorInput(),
     imageHotspotArrayPlugin(),
     media(),
-    ...(isDev ? devOnlyPlugins : []),
   ],
 
   schema: {
     types: schemaTypes,
   },
-
   form: {
     file: {
       assetSources: (previousAssetSources) => {

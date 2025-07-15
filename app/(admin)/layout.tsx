@@ -1,6 +1,6 @@
-import './globals.css'
-import "../styles/main.scss";
-import ShopProvider from '../context/shopContext'
+import '../globals.css'
+import "../../styles/main.scss";
+import ShopProvider from '../../context/shopContext'
 import React, { Suspense } from 'react'; // adjust the path accordingly
 
 export const metadata = {
