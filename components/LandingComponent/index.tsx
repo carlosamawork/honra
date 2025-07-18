@@ -49,7 +49,7 @@ export default function LandingComponent() {
             <div className={s.text}>
                 <p>CONTEMPORARY OBJECTS DESIGNED BY HONRA® TO NARRATE RHYTHMS OF AMBIENCE</p>
                 <p>HONRA.CO</p>
-                <div className={s.littlelogo}>
+                {/* <div className={s.littlelogo}>
                     <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.71 51.18">
                     <g id="Capa_1-2" data-name="Capa 1">
                         <g>
@@ -59,7 +59,7 @@ export default function LandingComponent() {
                         </g>
                     </g>
                     </svg>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
